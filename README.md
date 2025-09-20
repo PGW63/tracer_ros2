@@ -78,6 +78,17 @@ This repository contains minimal packages to control the tracer robot using ROS.
     z: 0.0" 
 
     ```
+
+## Nav2
+1. mapping (with slamtoolbox)
+2. move your map.yaml, map.pgm to directory maps in tracer_nav2
+3. rename map->my_map
+4. launch navigation with param.yaml in config directory
+   ```
+   $ ros2 launch tracer_nav2 navigation.launch.py
+   $ ros2 launch tracer_nav2 navigation_rviz.launch.py
+   ```
+
 **SAFETY PRECAUSION**: 
 
 Always have your remote controller ready to take over the control whenever necessary. 
