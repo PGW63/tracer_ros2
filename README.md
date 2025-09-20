@@ -80,7 +80,7 @@ This repository contains minimal packages to control the tracer robot using ROS.
     ```
 ## Bringup
 ```
-$ ros launch tracer_base bringup.launch.py
+$ ros launch tracer_base tracer_bringup.launch.py
 ```
 ## Nav2
 1. mapping (with slamtoolbox)
