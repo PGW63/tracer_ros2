@@ -78,7 +78,10 @@ This repository contains minimal packages to control the tracer robot using ROS.
     z: 0.0" 
 
     ```
-
+## Bringup
+```
+$ ros launch tracer_base bringup.launch.py
+```
 ## Nav2
 1. mapping (with slamtoolbox)
 2. move your map.yaml, map.pgm to directory maps in tracer_nav2
